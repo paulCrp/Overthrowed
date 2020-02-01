@@ -65,6 +65,7 @@
     <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
     <Compile Include="Assets\Materials\SpaceSkies Free\Demo\Scripts\LookCamera.cs" />
     <Compile Include="Assets\Materials\SpaceSkies Free\Demo\Scripts\SkyboxChanger.cs" />
+    <Compile Include="Assets\Script\LevelManager.cs" />
     <Compile Include="Assets\Script\PlayerActions.cs" />
     <Compile Include="Assets\Script\PlayerView.cs" />
     <Reference Include="Unity.Timeline.Editor">
