@@ -39,25 +39,25 @@ public class LevelManager : MonoBehaviour
             case (Levels.Null):
                 GateL1.transform.position = exitGate.transform.position;
                 GateL1.transform.rotation = exitGate.transform.rotation;
-                GetComponent<GameManager>()._initTriggerL1Pos();
+                //GetComponent<GameManager>()._initTriggerL1Pos();
                 lastLevel = Levels.level1;
                 break;
             case (Levels.level1):
                 GateL2.transform.position = exitGate.transform.position;
                 GateL2.transform.rotation = exitGate.transform.rotation;
-                GetComponent<GameManager>()._initTriggerL2Pos();
+                //GetComponent<GameManager>()._initTriggerL2Pos();
                 lastLevel = Levels.level2;
                 break;
             case (Levels.level2):
                 GateL3.transform.position = exitGate.transform.position;
                 GateL3.transform.rotation = exitGate.transform.rotation;
-                GetComponent<GameManager>()._initTriggerL3Pos();
+                //GetComponent<GameManager>()._initTriggerL3Pos();
                 lastLevel = Levels.level3;
                 break;
             case (Levels.level3):
                 GateL4.transform.position = exitGate.transform.position;
                 GateL4.transform.rotation = exitGate.transform.rotation;
-                GetComponent<GameManager>()._initTriggerL4Pos();
+                //GetComponent<GameManager>()._initTriggerL4Pos();
                 lastLevel = Levels.level4;
                 break;
         }

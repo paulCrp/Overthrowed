@@ -2,90 +2,120 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public enum TriggerState
+{
+    INIT,
+    BOXTRIGGER,
+    GLTRIGGER_NORTH,
+    GLTRIGGER_SOUTH,
+    GLTRIGGER_EAST,
+    GLTRIGGER_WEST,
+    L1FIRST_TRIGGER,
+    L1AFTER_FIRST,
+    L1SECOND_TRIGGER,
+    L1THIRD_TRIGGER,
+}
+
 public class GameManager : MonoBehaviour
 {
-    enum TriggerState {
-        INIT,
-        GLTRIGGER_NORTH,
-        GLTRIGGER_SOUTH,
-        GLTRIGGER_EAST,
-        GLTRIGGER_WEST,
-        L1FIRST_TRIGGER,
-        L1AFTER_FIRST,
-        L1SECOND_TRIGGER,
-        L1THIRD_TRIGGER,   
-    }
+    
 
     public GameObject ExitCentralNorth;
     public GameObject ExitCentralSouth;
     public GameObject ExitCentralEast;
     public GameObject ExitCentralWest;
-
-    public GameObject Player;
-    public GameObject L1Trigger1;
-    public GameObject GL_TriggerNorth;
-    public GameObject GL_TriggerSouth;
-    public GameObject GL_TriggerEast;
-    public GameObject GL_TriggerWest;
-
-    private Dictionary<TriggerState, Vector3> triggersPos;
-    private TriggerState _currentState;
-    private float _beginTime;
+    public GameObject TriggerBox;
+    public GameObject LightBox;
     
+
+    public bool HavePrisme;
+    public string PrismeName;
+    public TriggerState _currentState;
+    private float _beginTime;
+
+    public MirrorsManager mirrorsmanager;
     
     // Start is called before the first frame update
     void Start()
     {
-        triggersPos = new Dictionary <TriggerState, Vector3>();
-        _initTriggerPos();
+        HavePrisme = false;
         _currentState = TriggerState.INIT;
-        
+        PrismeName = "";
     }
 
     // Update is called once per frame
     void Update()
     {
-        CheckDistanceToTriggers();
+        //CheckDistanceToTriggers();
         _TriggerActions();
     }
 
-
+    /*
     private void CheckDistanceToTriggers()
     {
         Vector3 userPos = Player.transform.position;
         foreach (var item in triggersPos)
-            if (Vector3.Distance(userPos, item.Value) < 4) _currentState = item.Key;
+        { 
+            if (item.Value != new Vector3(1000, 1000, 1000))
+            {
+                
+                if (Vector3.Distance(userPos, item.Value) < 4) _currentState = item.Key;
+            }
+        }
+        if (_currentState != TriggerState.INIT)
+        {
+            if (_currentState == TriggerState.GLTRIGGER_NORTH || _currentState == TriggerState.GLTRIGGER_SOUTH
+                || _currentState == TriggerState.GLTRIGGER_EAST || _currentState == TriggerState.GLTRIGGER_WEST)
+            {
+                triggersPos[_currentState] = new Vector3 (1000, 1000, 1000);
+            }
+        }
     }
+    */
 
     private void _TriggerActions()
     {
-        switch (_currentState)
+        if (_currentState != TriggerState.INIT)
         {
-            case (TriggerState.GLTRIGGER_NORTH):
-                GetComponent<LevelManager>().LoadNextLevel(ExitCentralNorth);
-                break;
-            case (TriggerState.GLTRIGGER_SOUTH):
-                GetComponent<LevelManager>().LoadNextLevel(ExitCentralSouth);
-                break;
-            case (TriggerState.GLTRIGGER_EAST):
-                GetComponent<LevelManager>().LoadNextLevel(ExitCentralEast);
-                break;
-            case (TriggerState.GLTRIGGER_WEST):
-                GetComponent<LevelManager>().LoadNextLevel(ExitCentralWest);
-                break;
+            switch (_currentState)
+            {
+                case (TriggerState.GLTRIGGER_NORTH):
+                    GetComponent<LevelManager>().LoadNextLevel(ExitCentralNorth);
+                    break;
+                case (TriggerState.GLTRIGGER_SOUTH):
+                    GetComponent<LevelManager>().LoadNextLevel(ExitCentralSouth);
+                    break;
+                case (TriggerState.GLTRIGGER_EAST):
+                    GetComponent<LevelManager>().LoadNextLevel(ExitCentralEast);
+                    break;
+                case (TriggerState.GLTRIGGER_WEST):
+                    GetComponent<LevelManager>().LoadNextLevel(ExitCentralWest);
+                    break;
+                case (TriggerState.BOXTRIGGER):
+                    mirrorsmanager.MirrorsDeposed();
+                    HavePrisme = false;
+                    //highlight = false
+                    // lancer la cinématique
+                    break;
 
 
-            case (TriggerState.L1FIRST_TRIGGER):
-                TriggerSound();
-                break;
 
+
+
+                case (TriggerState.L1FIRST_TRIGGER):
+                    TriggerSound();
+                    break;
+
+            }
+            _currentState = TriggerState.INIT;
         }
     }
 
 
     
     
-
+    
 
     /*
         void CheckTriggers(){
@@ -130,11 +160,16 @@ public class GameManager : MonoBehaviour
 
 
 
+    public void _initBoxActions()
+    {
+
+        TriggerBox.SetActive(true);
+        // lumière ON
+    }
 
 
 
-
-
+    /*
     private void _initTriggerPos()
     {
         triggersPos.Add(TriggerState.GLTRIGGER_NORTH, GL_TriggerNorth.transform.position);
@@ -161,7 +196,7 @@ public class GameManager : MonoBehaviour
     {
         //
     }
-
+    */
 
 
     void TriggerSound()
