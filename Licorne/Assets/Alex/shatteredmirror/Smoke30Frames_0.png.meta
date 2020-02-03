@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: c6aa162134069ff4da5ddd8d4d216ed0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -196763260554461077
+    second: Smoke30Frames_0_0
+  - first:
+      213: -7606400265956815479
+    second: Smoke30Frames_0_1
+  - first:
+      213: -5292076041123382210
+    second: Smoke30Frames_0_2
+  - first:
+      213: -5712566823063850347
+    second: Smoke30Frames_0_3
+  - first:
+      213: 8234041259042144822
+    second: Smoke30Frames_0_4
+  - first:
+      213: -892051349527720921
+    second: Smoke30Frames_0_5
+  - first:
+      213: 8038770301185142445
+    second: Smoke30Frames_0_6
+  - first:
+      213: 4005793346808579495
+    second: Smoke30Frames_0_7
+  - first:
+      213: 3435830238489793851
+    second: Smoke30Frames_0_8
+  - first:
+      213: -340222965832002917
+    second: Smoke30Frames_0_9
+  - first:
+      213: -4438464668900130678
+    second: Smoke30Frames_0_10
+  - first:
+      213: 5035992924000112922
+    second: Smoke30Frames_0_11
+  - first:
+      213: -8986430291762803304
+    second: Smoke30Frames_0_12
+  - first:
+      213: -6347973255071172098
+    second: Smoke30Frames_0_13
+  - first:
+      213: -4629558271797127852
+    second: Smoke30Frames_0_14
+  - first:
+      213: -5956482949130299025
+    second: Smoke30Frames_0_15
+  - first:
+      213: 2525805818459387816
+    second: Smoke30Frames_0_16
+  - first:
+      213: 6767795708366536750
+    second: Smoke30Frames_0_17
+  - first:
+      213: -8478614715505223415
+    second: Smoke30Frames_0_18
+  - first:
+      213: 5887653190126126809
+    second: Smoke30Frames_0_19
+  - first:
+      213: 5108248534065978704
+    second: Smoke30Frames_0_20
+  - first:
+      213: 4928103253354453340
+    second: Smoke30Frames_0_21
+  - first:
+      213: 5247807098492697027
+    second: Smoke30Frames_0_22
+  - first:
+      213: -784973698143724803
+    second: Smoke30Frames_0_23
+  - first:
+      213: -5745827627331817090
+    second: Smoke30Frames_0_24
+  - first:
+      213: -4324461192265094219
+    second: Smoke30Frames_0_25
+  - first:
+      213: 5290341108219174279
+    second: Smoke30Frames_0_26
+  - first:
+      213: 4772746219287514208
+    second: Smoke30Frames_0_27
+  - first:
+      213: 2444879622082831938
+    second: Smoke30Frames_0_28
+  - first:
+      213: 5726584959524565488
+    second: Smoke30Frames_0_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Smoke30Frames_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1023.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9e351a4f38a2f4b9b27a887f320d42
+      internalID: -196763260554461077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1023.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8690c03f4a4117489594ea2b68efcaf
+      internalID: -7606400265956815479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1023
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cdee0a83bc2c547bcf3e111926a476
+      internalID: -5292076041123382210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1023.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67fa80383fd14e429f24f7c4dc69ff4
+      internalID: -5712566823063850347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_4
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1023.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfc1b8745785d246bd1e2ee14484404
+      internalID: 8234041259042144822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1023.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334a2596d3a56244db317a7cfeaeaf37
+      internalID: -892051349527720921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72e1138cf7d38d448e6abf7191eb0f9
+      internalID: 8038770301185142445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5508dd54b86f438468675aba4ed2b132
+      internalID: 4005793346808579495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135e2c48fa33654429a59540179b4049
+      internalID: 3435830238489793851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f53487d8a672f45ada1534a393dff9
+      internalID: -340222965832002917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802e7c37b269b5a458e9d3a884c2f3f4
+      internalID: -4438464668900130678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e452e95e38df6c84da6956ebf23bc5e3
+      internalID: 5035992924000112922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6f6c5d088c7714fa93e84cb4433af8
+      internalID: -8986430291762803304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80df87375474a641a2c7e622757d8fb
+      internalID: -6347973255071172098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043da6ca419156f4abab6f5a4c30b61a
+      internalID: -4629558271797127852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_15
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12795f9c800a83b41870fc0be521c4cc
+      internalID: -5956482949130299025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4417422081550594784b1ecdb1eefd9a
+      internalID: 2525805818459387816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 513.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9063534610957ce4c833b4853b66e1bf
+      internalID: 6767795708366536750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8953a5440a48d443af1e2df421c13b5
+      internalID: -8478614715505223415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425fb7409a5a891428dc4fe5ea06fb13
+      internalID: 5887653190126126809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57f810dc9b7e9c4b8349dc03400fe46
+      internalID: 5108248534065978704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd66135cce47114b80afafe9d6d56e7
+      internalID: 4928103253354453340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_22
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b27592dd6bad3d48a4cba16c02490be
+      internalID: 5247807098492697027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 258.2
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7298e6a67743674998e508a22d9f4f6
+      internalID: -784973698143724803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a3b06858020484d80b5426862e0249
+      internalID: -5745827627331817090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553092af7fb982a4dbd4c1936af73c29
+      internalID: -4324461192265094219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc45333fca3c4d84aa72712ab33bd75d
+      internalID: 5290341108219174279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10a47fab0325094ba817ddd07de3f82
+      internalID: 4772746219287514208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeff882b6089609419e1986395d5f624
+      internalID: 2444879622082831938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke30Frames_0_29
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3.199997
+        width: 256
+        height: 255.8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5781193405a521640a3e86a6e482e9f4
+      internalID: 5726584959524565488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -21,12 +21,24 @@ public class PlayerActions : MonoBehaviour
     void Update()
     {
         Vector3 moveDirection = new Vector3();
-        if (characterController.isGrounded)
-            moveDirection = MyCamera.transform.forward * distance;
-        moveDirection.y -= gravity * Time.deltaTime;
+        //if (characterController.isGrounded)
+        //{
+            if (Input.GetKey("up"))
+            {
+                moveDirection.x = MyCamera.transform.forward.x * distance;
+                moveDirection.z = MyCamera.transform.forward.z * distance;
+            }
+            if (Input.GetKey("down"))
+            {
+                moveDirection.x = -MyCamera.transform.forward.x * distance;
+                moveDirection.z = -MyCamera.transform.forward.z * distance;
+            }
+        //}
+        //moveDirection.y -= gravity * Time.deltaTime;
         //Forward
         if (Input.GetKey("up")) characterController.Move(moveDirection * Time.deltaTime);
         //Backward
         if (Input.GetKey("down")) characterController.Move(moveDirection * Time.deltaTime);
+        // 
     }
 }
