@@ -4,10 +4,10 @@
 
 In this repository you can find a game made for the GGJ 2020 
 
-Script : Marie Dubois
-Programmers : Paul Crepin, Mathieu Jégou, Alex Kabil
-Artist : Arthur Passet
-Sound Design : Pierre De Loor
+- Script : Marie Dubois
+- Programmers : Paul Crepin, Mathieu Jégou, Alex Kabil
+- Artist : Arthur Passet
+- Sound Design : Pierre De Loor
 
 VR version coming soon
 
